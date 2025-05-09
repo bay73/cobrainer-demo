@@ -1,0 +1,53 @@
+HELP.md
+.gradle
+.kotlin
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+.env
+gradle-build-cache/
+gradle-build-cache.lock
+
+### OWASP Dependency Check ###
+owasp-cache/
+
+### Terraform ###
+infrastructure/.terraform/
+infrastructure/terraform.tfplan
+infrastructure/terraform.tfstate
+infrastructure/terraform.tfstate.backup
+infrastructure/terraform.tfvars
+infrastructure/.builds/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
